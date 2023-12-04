@@ -476,4 +476,4 @@ C:\Users\mbaxter\GitDemo>git branch
 * developer
   trunk
 
-C:\Users\mbaxter\GitDemo>
+C:\Users\mbaxter\GitDemo>test
