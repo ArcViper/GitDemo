@@ -242,4 +242,48 @@ remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
 To https://github.com/ArcViper/GitDemo.git
    ed8a9fc..1fce76f  trunk -> trunk
 
-C:\Users\mbaxter\GitDemo>
+C:\Users\mbaxter\GitDemo>cd C:\Users\mbaxter\Github_Stuff
+
+C:\Users\mbaxter\Github_Stuff>git pull origin trunk
+remote: Enumerating objects: 10, done.
+remote: Counting objects: 100% (10/10), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 6 (delta 3), reused 6 (delta 3), pack-reused 0
+Unpacking objects: 100% (6/6), 683 bytes | 26.00 KiB/s, done.
+From https://github.com/ArcViper/GitDemo
+ * branch            trunk      -> FETCH_HEAD
+   ed8a9fc..1fce76f  trunk      -> origin/trunk
+error: The following untracked working tree files would be overwritten by merge:
+        .idea/vcs.xml
+Please move or remove them before you merge.
+Aborting
+Updating ed8a9fc..1fce76f
+
+C:\Users\mbaxter\Github_Stuff>git pull origin trunk
+From https://github.com/ArcViper/GitDemo
+ * branch            trunk      -> FETCH_HEAD
+Updating ed8a9fc..1fce76f
+Fast-forward
+ .idea/vcs.xml         | 6 ++++++
+ tests/test_end2end.py | 1 +
+ 2 files changed, 7 insertions(+)
+ create mode 100644 .idea/vcs.xml
+
+C:\Users\mbaxter\Github_Stuff>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        GitHubCommands.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\mbaxter\Github_Stuff>git add GitHubCommands.txt
+
+C:\Users\mbaxter\Github_Stuff>git commit -m "X added command prompt text file"
+[trunk 87a1381] X added command prompt text file
+ 1 file changed, 245 insertions(+)
+ create mode 100644 GitHubCommands.txt
+
+C:\Users\mbaxter\Github_Stuff>git push origin trunk
