@@ -1,0 +1,28 @@
+2023-09-22 13:28:26,079 :INFO : test_formSubmission :First name: Michael
+2023-09-22 13:28:26,141 :INFO : test_formSubmission :Last name: Baxter
+2023-09-22 13:28:26,527 :INFO : test_formSubmission :First name: Brandy
+2023-09-22 13:28:26,583 :INFO : test_formSubmission :Last name: Baxter
+2023-09-22 13:28:33,772 :INFO : test_e2e :Retrieving all the card titles...
+2023-09-22 13:28:33,812 :INFO : test_e2e :selecting iphone X
+2023-09-22 13:28:33,820 :INFO : test_e2e :selecting Samsung Note 8
+2023-09-22 13:28:33,826 :INFO : test_e2e :selecting Nokia Edge
+2023-09-22 13:28:33,826 :INFO : test_e2e :selecting Blackberry
+2023-09-22 13:28:33,950 :INFO : test_e2e :Selecting checkout button to view item(s) in cart...
+2023-09-22 13:28:34,020 :INFO : test_e2e :Selecting checkout button to view confirmation page...
+2023-09-22 13:28:34,020 :INFO : test_e2e :Entering country name...
+2023-09-22 13:28:39,426 :INFO : test_e2e :Confirmation text received from application: ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
+2023-09-22 13:40:22,480 :INFO : test_formSubmission :First name: Michael
+2023-09-22 13:40:22,532 :INFO : test_formSubmission :Last name: Baxter
+2023-09-22 13:40:22,879 :INFO : test_formSubmission :First name: Brandy
+2023-09-22 13:40:22,927 :INFO : test_formSubmission :Last name: Baxter
+2023-09-22 13:40:29,454 :INFO : test_e2e :Retrieving all the card titles...
+2023-09-22 13:40:29,475 :INFO : test_e2e :selecting iphone X
+2023-09-22 13:40:29,482 :INFO : test_e2e :selecting Samsung Note 8
+2023-09-22 13:40:29,489 :INFO : test_e2e :selecting Nokia Edge
+2023-09-22 13:40:29,495 :INFO : test_e2e :selecting Blackberry
+2023-09-22 13:40:29,595 :INFO : test_e2e :Selecting checkout button to view item(s) in cart...
+2023-09-22 13:40:29,645 :INFO : test_e2e :Selecting checkout button to view confirmation page...
+2023-09-22 13:40:29,645 :INFO : test_e2e :Entering country name...
+2023-09-22 13:40:34,966 :INFO : test_e2e :Confirmation text received from application: ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
