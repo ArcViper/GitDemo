@@ -1,0 +1,245 @@
+Microsoft Windows [Version 10.0.19045.3693]
+(c) Microsoft Corporation. All rights reserved.
+
+U:\>cd c:/
+
+U:\>c:/
+'c:/' is not recognized as an internal or external command,
+operable program or batch file.
+
+U:\> dir c:/
+Invalid switch - "".
+
+U:\>dir c:
+ Volume in drive C is OS
+ Volume Serial Number is 9E19-7860
+
+ Directory of c:\
+
+07/07/2022  11:50 AM    <DIR>          Apps
+07/07/2022  01:01 PM    <DIR>          DELL
+07/07/2022  12:37 PM    <DIR>          Drivers
+07/07/2022  12:35 PM    <DIR>          e-logo
+01/30/2023  09:52 AM    <DIR>          Intel
+12/03/2023  03:08 PM    <DIR>          kworking
+12/07/2019  04:14 AM    <DIR>          PerfLogs
+12/04/2023  12:21 PM    <DIR>          Program Files
+11/03/2023  02:19 PM    <DIR>          Program Files (x86)
+08/01/2023  10:09 AM             5,828 SSDXFlashLog.zip
+10/01/2023  07:37 AM    <DIR>          temp
+11/11/2022  01:33 PM    <DIR>          Users
+11/29/2023  01:40 PM    <DIR>          Windows
+               1 File(s)          5,828 bytes
+              12 Dir(s)  806,465,257,472 bytes free
+
+U:\>c:
+
+c:\>git config --global user.name "Michael"
+
+c:\>git config --global user.email "mbaxter@epictechllc.com"
+
+c:\>cd Github_Stuff
+The system cannot find the path specified.
+
+c:\>cd C:\Users\mbaxter\Github_Stuff
+
+C:\Users\mbaxter\Github_Stuff>git init
+Initialized empty Git repository in C:/Users/mbaxter/Github_Stuff/.git/
+
+C:\Users\mbaxter\Github_Stuff>git add *
+warning: in the working copy of '.idea/inspectionProfiles/Project_Default.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.idea/inspectionProfiles/profiles_settings.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tests/geckodriver.log', LF will be replaced by CRLF the next time Git touches it
+
+C:\Users\mbaxter\Github_Stuff>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .idea/.gitignore
+        new file:   .idea/PythonSelfFramework.iml
+        new file:   .idea/encodings.xml
+        new file:   .idea/inspectionProfiles/Project_Default.xml
+        new file:   .idea/inspectionProfiles/profiles_settings.xml
+        new file:   .idea/misc.xml
+        new file:   .idea/modules.xml
+        new file:   TestData/HomePageData.py
+        new file:   TestData/__init__.py
+        new file:   TestData/__pycache__/HomePageData.cpython-310.pyc
+        new file:   TestData/__pycache__/HomePageData.cpython-311.pyc
+        new file:   TestData/__pycache__/__init__.cpython-310.pyc
+        new file:   TestData/__pycache__/__init__.cpython-311.pyc
+        new file:   pageObjects/CheckoutPage.py
+        new file:   pageObjects/ConfirmPage.py
+        new file:   pageObjects/HomePage.py
+        new file:   pageObjects/__init__.py
+        new file:   pageObjects/__pycache__/CheckoutPage.cpython-310.pyc
+        new file:   pageObjects/__pycache__/CheckoutPage.cpython-311.pyc
+        new file:   pageObjects/__pycache__/ConfirmPage.cpython-310.pyc
+        new file:   pageObjects/__pycache__/ConfirmPage.cpython-311.pyc
+        new file:   pageObjects/__pycache__/HomePage.cpython-310.pyc
+        new file:   pageObjects/__pycache__/HomePage.cpython-311.pyc
+        new file:   pageObjects/__pycache__/__init__.cpython-310.pyc
+        new file:   pageObjects/__pycache__/__init__.cpython-311.pyc
+        new file:   tests/__init__.py
+        new file:   tests/__pycache__/__init__.cpython-310.pyc
+        new file:   tests/__pycache__/__init__.cpython-311.pyc
+        new file:   tests/__pycache__/conftest.cpython-310-pytest-7.4.0.pyc
+        new file:   tests/__pycache__/conftest.cpython-311-pytest-7.3.1.pyc
+        new file:   tests/__pycache__/conftest.cpython-311-pytest-7.4.0.pyc
+        new file:   tests/__pycache__/conftest.cpython-311-pytest-7.4.2.pyc
+        new file:   tests/__pycache__/test.cpython-311-pytest-7.3.1.pyc
+        new file:   tests/__pycache__/test2.cpython-310-pytest-7.4.0.pyc
+        new file:   tests/__pycache__/test2.cpython-311-pytest-7.3.1.pyc
+        new file:   tests/__pycache__/test2.cpython-311-pytest-7.4.0.pyc
+        new file:   tests/__pycache__/test_HomePage.cpython-310-pytest-7.4.0.pyc
+        new file:   tests/__pycache__/test_HomePage.cpython-311-pytest-7.4.0.pyc
+        new file:   tests/__pycache__/test_HomePage.cpython-311-pytest-7.4.2.pyc
+        new file:   tests/__pycache__/test_end2end.cpython-310-pytest-7.4.0.pyc
+        new file:   tests/__pycache__/test_end2end.cpython-311-pytest-7.3.1.pyc
+        new file:   tests/__pycache__/test_end2end.cpython-311-pytest-7.4.0.pyc
+        new file:   tests/__pycache__/test_end2end.cpython-311-pytest-7.4.2.pyc
+        new file:   tests/__pycache__/test_test2.cpython-311-pytest-7.3.1.pyc
+        new file:   tests/assets/style.css
+        new file:   tests/conftest.py
+        new file:   tests/geckodriver.log
+        new file:   tests/report.html
+        new file:   tests/test_HomePage.py
+        new file:   tests/test_HomePage.py_TestHomePage_test_formSubmission[getData0].png
+        new file:   tests/test_HomePage.py_TestHomePage_test_formSubmission[getData1].png
+        new file:   tests/test_end2end.py
+        new file:   utilities/BaseClass.py
+        new file:   utilities/__init__.py
+        new file:   utilities/__pycache__/BaseClass.cpython-310.pyc
+        new file:   utilities/__pycache__/BaseClass.cpython-311.pyc
+        new file:   utilities/__pycache__/__init__.cpython-310.pyc
+        new file:   utilities/__pycache__/__init__.cpython-311.pyc
+        new file:   utilities/logfile.log
+
+
+C:\Users\mbaxter\Github_Stuff>git commit -m "first Commit"
+[master (root-commit) ed8a9fc] first Commit
+ 59 files changed, 952 insertions(+)
+ create mode 100644 .idea/.gitignore
+ create mode 100644 .idea/PythonSelfFramework.iml
+ create mode 100644 .idea/encodings.xml
+ create mode 100644 .idea/inspectionProfiles/Project_Default.xml
+ create mode 100644 .idea/inspectionProfiles/profiles_settings.xml
+ create mode 100644 .idea/misc.xml
+ create mode 100644 .idea/modules.xml
+ create mode 100644 TestData/HomePageData.py
+ create mode 100644 TestData/__init__.py
+ create mode 100644 TestData/__pycache__/HomePageData.cpython-310.pyc
+ create mode 100644 TestData/__pycache__/HomePageData.cpython-311.pyc
+ create mode 100644 TestData/__pycache__/__init__.cpython-310.pyc
+ create mode 100644 TestData/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 pageObjects/CheckoutPage.py
+ create mode 100644 pageObjects/ConfirmPage.py
+ create mode 100644 pageObjects/HomePage.py
+ create mode 100644 pageObjects/__init__.py
+ create mode 100644 pageObjects/__pycache__/CheckoutPage.cpython-310.pyc
+ create mode 100644 pageObjects/__pycache__/CheckoutPage.cpython-311.pyc
+ create mode 100644 pageObjects/__pycache__/ConfirmPage.cpython-310.pyc
+ create mode 100644 pageObjects/__pycache__/ConfirmPage.cpython-311.pyc
+ create mode 100644 pageObjects/__pycache__/HomePage.cpython-310.pyc
+ create mode 100644 pageObjects/__pycache__/HomePage.cpython-311.pyc
+ create mode 100644 pageObjects/__pycache__/__init__.cpython-310.pyc
+ create mode 100644 pageObjects/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 tests/__init__.py
+ create mode 100644 tests/__pycache__/__init__.cpython-310.pyc
+ create mode 100644 tests/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 tests/__pycache__/conftest.cpython-310-pytest-7.4.0.pyc
+ create mode 100644 tests/__pycache__/conftest.cpython-311-pytest-7.3.1.pyc
+ create mode 100644 tests/__pycache__/conftest.cpython-311-pytest-7.4.0.pyc
+ create mode 100644 tests/__pycache__/conftest.cpython-311-pytest-7.4.2.pyc
+ create mode 100644 tests/__pycache__/test.cpython-311-pytest-7.3.1.pyc
+ create mode 100644 tests/__pycache__/test2.cpython-310-pytest-7.4.0.pyc
+ create mode 100644 tests/__pycache__/test2.cpython-311-pytest-7.3.1.pyc
+ create mode 100644 tests/__pycache__/test2.cpython-311-pytest-7.4.0.pyc
+ create mode 100644 tests/__pycache__/test_HomePage.cpython-310-pytest-7.4.0.pyc
+ create mode 100644 tests/__pycache__/test_HomePage.cpython-311-pytest-7.4.0.pyc
+ create mode 100644 tests/__pycache__/test_HomePage.cpython-311-pytest-7.4.2.pyc
+ create mode 100644 tests/__pycache__/test_end2end.cpython-310-pytest-7.4.0.pyc
+ create mode 100644 tests/__pycache__/test_end2end.cpython-311-pytest-7.3.1.pyc
+ create mode 100644 tests/__pycache__/test_end2end.cpython-311-pytest-7.4.0.pyc
+ create mode 100644 tests/__pycache__/test_end2end.cpython-311-pytest-7.4.2.pyc
+ create mode 100644 tests/__pycache__/test_test2.cpython-311-pytest-7.3.1.pyc
+ create mode 100644 tests/assets/style.css
+ create mode 100644 tests/conftest.py
+ create mode 100644 tests/geckodriver.log
+ create mode 100644 tests/report.html
+ create mode 100644 tests/test_HomePage.py
+ create mode 100644 tests/test_HomePage.py_TestHomePage_test_formSubmission[getData0].png
+ create mode 100644 tests/test_HomePage.py_TestHomePage_test_formSubmission[getData1].png
+ create mode 100644 tests/test_end2end.py
+ create mode 100644 utilities/BaseClass.py
+ create mode 100644 utilities/__init__.py
+ create mode 100644 utilities/__pycache__/BaseClass.cpython-310.pyc
+ create mode 100644 utilities/__pycache__/BaseClass.cpython-311.pyc
+ create mode 100644 utilities/__pycache__/__init__.cpython-310.pyc
+ create mode 100644 utilities/__pycache__/__init__.cpython-311.pyc
+ create mode 100644 utilities/logfile.log
+
+C:\Users\mbaxter\Github_Stuff>get branch -trunk
+'get' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\mbaxter\Github_Stuff>git branch -M trunk
+
+C:\Users\mbaxter\Github_Stuff>git remote add origin https://github.com/ArcViper/GitDemo.git
+
+C:\Users\mbaxter\Github_Stuff>git push -u origin trunk
+info: please complete authentication in your browser...
+Enumerating objects: 70, done.
+Counting objects: 100% (70/70), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (66/66), done.
+Writing objects: 100% (70/70), 175.02 KiB | 12.50 MiB/s, done.
+Total 70 (delta 11), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (11/11), done.
+To https://github.com/ArcViper/GitDemo.git
+ * [new branch]      trunk -> trunk
+branch 'trunk' set up to track 'origin/trunk'.
+
+C:\Users\mbaxter\Github_Stuff>git clone https://github.com/ArcViper/GitDemo.git
+Cloning into 'GitDemo'...
+remote: Enumerating objects: 70, done.
+remote: Counting objects: 100% (70/70), done.
+remote: Compressing objects: 100% (55/55), done.
+Receiving objects:  90% (63/70)used 70 (delta 11), pack-reused 0
+Receiving objects: 100% (70/70), 175.02 KiB | 14.58 MiB/s, done.
+Resolving deltas: 100% (11/11), done.
+
+C:\Users\mbaxter\Github_Stuff>cd C:\Users\mbaxter\GitDemo
+
+C:\Users\mbaxter\GitDemo>git add *
+
+C:\Users\mbaxter\GitDemo>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   .idea/vcs.xml
+        modified:   tests/test_end2end.py
+
+
+C:\Users\mbaxter\GitDemo>git commit -m "this is a commit from Y"
+[trunk 1fce76f] this is a commit from Y
+ 2 files changed, 7 insertions(+)
+ create mode 100644 .idea/vcs.xml
+
+C:\Users\mbaxter\GitDemo>git push origin trunk
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 703 bytes | 703.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/ArcViper/GitDemo.git
+   ed8a9fc..1fce76f  trunk -> trunk
+
+C:\Users\mbaxter\GitDemo>
