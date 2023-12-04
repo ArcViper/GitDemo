@@ -10,7 +10,7 @@ from utilities.BaseClass import BaseClass
 # this imports the base class python file that allows the driver variable to be passed into any class
 
 # its good practice to have your pytests wrapped by class
-# GetDemo GitHub commit 1 test
+# GetDemo developer branch test
 
 class TestOne(BaseClass):
     # test cases should not invoke the web browser. This should be in a separate fixture file to prevent duplicate code
